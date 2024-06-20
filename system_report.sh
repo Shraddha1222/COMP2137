@@ -17,7 +17,7 @@ UPTIME=$(uptime -p)                  #    got the uptime  thorugh uptime command
 CPU=$(lscpu |  grep 'Model name:')         #    Used lscpu command to get the cpu information specially model name
 speed=$(lscpu  |  grep 'CPU MHz' )         #    lscpu to get the spedd in MHz
 RAM=$(free -h  |  awk '/Mem:/ {print $2}')             #    To get the RAM used free command
-DISK=$(lsblk )                            #    lsblk for gain DISKS 
+DISK=$(lsblk -d  |  awk '{print $1}' )                            #    lsblk for gain DISKS 
 
 
 
@@ -36,7 +36,7 @@ IP_ADDRESS=$(hostname -I |   awk '{print $1}')                 #    Hostname  -I
 
 USER_LOGGED_IN=$(who)                      #    get the user logged name by who command
 DISK_SPACE=$(df -h)                        #    df-h for the disk space
-
+ufw=$(sudo ufw status numbered)1
 
 
 
@@ -76,7 +76,7 @@ SYSTEM STATUS
 __________________
 USER_LOGGED_IN:$USER_LOGGED_IN
 DISK_SPACE:$DISK_SPACE
-
+UFW:$ufw
 
 
 
