@@ -1,4 +1,5 @@
-#!/bin/bash
+x
+s#!/bin/bash
 
 USERNAME=$USER                      #   Get the username through USER command
 today=$(date +"%Y-%m-%d %H:%M:%S")                   #   Use the date command to get today's date
@@ -36,7 +37,7 @@ IP_ADDRESS=$(hostname -I |   awk '{print $1}')                 #    Hostname  -I
 
 USER_LOGGED_IN=$(who)                      #    get the user logged name by who command
 DISK_SPACE=$(df -h)                        #    df-h for the disk space
-ufw=$(sudo ufw status numbered)1
+ufw=$(sudo ufw status numbered)1             # show the ufw status
 
 
 

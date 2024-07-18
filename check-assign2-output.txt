@@ -1,0 +1,14 @@
+---Host/Student info----
+
+Running on Thu 18 Jul 2024 06:46:11 PM EDT
+Run by shraddha - () on host
+ Static hostname: generic-vm
+      Machine ID: d9935d60682c499b9d2a5d0aed216125
+Operating System: Ubuntu 22.04.4 LTS
+6e9af5e0d3d96cd852d0c52f257c7f1e  ./check-assign2-script.sh - 6e9af5e0d3d96cd852d0c52f257c7f1e  -
+------------------------
+
+---Start of Assignment2.sh Check------
+---Running makecontainers.sh----------
+This script performs many tasks. Please be patient
+To see more about what it is doing as it does it, use the --verbose option
