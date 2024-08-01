@@ -1,4 +1,30 @@
 WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
 dpkg-preconfigure: unable to re-open stdin: No such file or directory
+<<<<<<< HEAD
 ssh: connect to host server1-mgmt port 22: Connection refused
 lost connection
+=======
+Warning: Permanently added 'server1-mgmt' (ED25519) to the list of known hosts.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7, <> line 46.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin: 
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+useradd: user 'dennis' already exists
+useradd: user 'aubrey' already exists
+useradd: user 'captain' already exists
+useradd: user 'snibbles' already exists
+useradd: user 'brownie' already exists
+useradd: user 'scooter' already exists
+useradd: user 'sandy' already exists
+useradd: user 'perrier' already exists
+useradd: user 'cindy' already exists
+useradd: user 'tiger' already exists
+useradd: user 'yoda' already exists
+WARNING:root:Cannot call Open vSwitch: ovsdb-server.service is not running.
+>>>>>>> origin/main
