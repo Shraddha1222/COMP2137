@@ -37,7 +37,7 @@ fi
 
 echo ---Running makecontainers.sh----------
 ~/makecontainers.sh --count 1 --target server --fresh || exit 1
-sleep 10
+sleep 30
 
 # make ssh keys
 ssh-keygen -f ~/.ssh/known_hosts -R server1-mgmt
